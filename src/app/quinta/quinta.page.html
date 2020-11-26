@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>quinta</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="3" class="cell-2">
+        1 of 2
+      </ion-col>
+      <ion-col size="3" offset="5" class="cell-6">
+        2 of 2
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid>
+      <ion-row>
+        <ion-col size-md="3">
+          1 of 3
+        </ion-col>
+        <ion-col size-md="3" class="cell-5">
+          2 of 3
+        </ion-col>
+        <!-- Aquí hay un ejemplo de una cuadrícula en la que la
+         última columna será desplazada por 3 columnas para
+         las pantallas md y hacia arriba: -->
+        <ion-col size-md="3" offset-md="3" class="cell-6">
+          3 of 3
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid>
+        <ion-row>
+          <ion-col size="9" push="3" class="cell-2">
+            1 of 2
+          </ion-col>
+          <ion-col size="3" pull="9" class="cell-3">
+            2 of 2
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <!-- Aplicando breakpoints de tamaño de pantalla -->
+      <ion-grid>
+          <ion-row>
+            <ion-col size="9" size-md="4" push-xd="3">
+              1 of 3
+            </ion-col>
+            <ion-col size="3" push-md="3">
+              2 of 3
+            </ion-col>
+            <ion-col size="3" pull-md="9">
+              3 of 3
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+</ion-content>
